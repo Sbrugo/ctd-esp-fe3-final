@@ -25,21 +25,19 @@ h1 {
   text-align: center;
 }
 
-nav {
+/* nav {
   display: flex;
   width: 100vw;
   justify-content: flex-start;
   padding: 1rem;
-}
+} */
 
 a {
   color: #000;
   text-decoration: none;
   margin: 5px;
   cursor: pointer;
-}
-a:hover {
-  color: rgb(136, 136, 136);
+  padding: 3% 0%;
 }
 
 footer {

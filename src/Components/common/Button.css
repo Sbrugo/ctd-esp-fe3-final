@@ -25,6 +25,9 @@
   border: 1px solid var(--primary);
   transition: all 0.3s ease-out;
 }
+#btn--chico {
+  padding: 6px 14px;
+}
 
 .btn--mediano {
   padding: 8px 20px;
