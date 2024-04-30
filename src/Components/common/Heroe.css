@@ -1,0 +1,31 @@
+.heroe-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(13, 44, 84);
+  width: 30%;
+  padding: 2% 5%;
+  height: 62vh;
+  background-color: rgba(240, 244, 239, 0.7);
+}
+.heroe-text > h2 {
+  padding: 5% 0%;
+}
+.hero-btns {
+  padding: 6% 0%;
+  display: flex;
+  justify-content: center;
+}
+.heroe-text > h5 {
+  text-align: center;
+}
+.image-wrapper {
+  background-image: url("../../img/bgcopia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 62vh;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}

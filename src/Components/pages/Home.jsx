@@ -1,22 +1,26 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import Card from "../common/Card";
 import { ContextGlobal } from "../../context/ContextProvider";
-
-//Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
+import "./Home.css";
+import Heroe from "../common/Heroe";
 
 const Home = () => {
   const { dentists } = useContext(ContextGlobal);
 
   return (
-    <main>
-      {/* Aqui deberias renderizar las cards */}
-      <h1>Home</h1>
-      <div className="card-grid">
-        {dentists.dentistas.map((dentista) => {
-          return <Card key={dentista.id} dentista={dentista} />;
-        })}
-      </div>
-    </main>
+    <>
+      <main>
+        <Heroe />
+        <div className="features-container">
+          <h1>Home</h1>
+          <div className="card-grid">
+            {dentists.dentistas.map((dentista) => {
+              return <Card key={dentista.id} dentista={dentista} />;
+            })}
+          </div>
+        </div>
+      </main>
+    </>
   );
 };
 
