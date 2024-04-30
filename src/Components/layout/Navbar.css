@@ -24,3 +24,9 @@ nav ul a {
 nav ul a:hover {
   border-bottom: 4px solid #80ffff;
 }
+@media screen and (max-width: 1188px) {
+  .navbar-container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}

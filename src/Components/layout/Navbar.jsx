@@ -6,7 +6,23 @@ import { Button } from "../common/Button";
 //Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
 
 const Navbar = () => {
-  const { dark, setDark } = useContext(ContextGlobal);
+  const { dark, setDark, click, setClick, button, setButton } =
+    useContext(ContextGlobal);
+
+  // const handleClick = () => setClick(!click);
+  // const closeMobileMenu = () => setClick(false);
+
+  // const showButton = () => {
+  //   if (window.innerWidth <= 960) {
+  //     setButton(false);
+  //   } else {
+  //     setButton(true);
+  //   }
+  // };
+  // useEffect(() => {
+  //   showButton();
+  // }, []);
+  // window.addEventListener("resize", showButton);
 
   const cambiarTema = () => {
     if (dark) {

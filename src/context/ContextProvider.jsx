@@ -13,6 +13,8 @@ export const ContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const [dentistas, setDentistas] = useState([]);
   const [dark, setDark] = useState(false);
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
 
   const url = "https://jsonplaceholder.typicode.com/users";
 

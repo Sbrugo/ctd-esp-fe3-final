@@ -1,0 +1,23 @@
+#navbarTwo-container {
+  height: auto;
+  background-color: #051222;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  display: flex;
+}
+#navbarTwo-container ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+#navbarTwo-container a {
+  font-size: smaller;
+  color: white;
+  padding: 0px;
+}
+#navbarTwo-container a:hover {
+  border-bottom: transparent;
+}
+#navbarTwo-container a:active {
+  color: #0d2c54;
+}
