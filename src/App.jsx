@@ -25,7 +25,7 @@ function App() {
           {/* <Route path="/detailhome" element={<DetailHome />} /> */}
           <Route path="/favs" element={<Favs />} />
         </Route>
-        <Route path="/*" element={<div>La pagina no existe</div>} />
+        {/* <Route path="/*" element={<div>La pagina no existe</div>} /> */}
       </Routes>
     </div>
   );

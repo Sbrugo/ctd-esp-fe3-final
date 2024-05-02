@@ -3,6 +3,7 @@ import { ContextGlobal } from "../../context/ContextProvider";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { Button } from "../common/Button";
+import "../../index.css";
 //Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
 
 const Navbar = () => {
