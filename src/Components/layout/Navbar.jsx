@@ -56,8 +56,9 @@ const Navbar = () => {
           onClick={cambiarTema}
           id="btn--chico"
         >
-          Modo Oscuro <i className="far fa-play-circle"></i>
+          Modo Oscuro
         </Button>
+        {/* <i className="far fa-play-circle"></i> */}
       </nav>
     </>
   );
